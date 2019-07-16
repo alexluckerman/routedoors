@@ -11,14 +11,16 @@ class PathFinder:
     rect = None
     points = None
     directions = []
-    key = 'AIzaSyAYO7T7rV7bUOer87rKnXLXXffZG_fh-LE'
+    key = 'KEY HERE'
     """takes an origin and returns its coordinates"""
 
     def pointfinder(self):
         url = 'https://maps.googleapis.com/maps/api/geocode/json'
-        params = {'address': self.origin, 'key': 'AIzaSyDMtgBhAxYX_qgZCQkX15KPLd4m4E7AUmI'}
+        params = {'address': self.origin, 'key': 'KEY HERE'}
         resp = requests.get(url, params=params)
+        print(resp)
         results = resp.json()['results']
+        print(results)
         location = results[0]['geometry']['location']
         return location
 
