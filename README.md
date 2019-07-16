@@ -1,6 +1,6 @@
-﻿This project was originally submitted as a part of the HackGT 2018 hackathon. More information on the original version is available [on Devpost](https://devpost.com/software/routedoors)
+> This project was originally submitted as a part of the HackGT 2018 hackathon. More information on the original version is available [on Devpost](https://devpost.com/software/routedoors)
 
-##Routedoors (pronounced rOWt-doors)
+# Routedoors (pronounced rOWt-doors)
 
 ## Inspiration
 Routedoors is for the dreamer who wants to start running, but hesitates because they don’t know where to go. It’s for the coach looking to diversify his team's exercise experience and the dog-walker who wants to take their dog through exciting new sights and smells everyday. It’s for the alien who just moved for their job and seeks to explore the unfamiliar city. Ultimately, it's for every runner who wants to break free from their routine runs.
