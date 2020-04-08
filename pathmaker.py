@@ -15,7 +15,7 @@ class PathFinder:
     """takes an origin and returns its coordinates"""
     def pointfinder(self):
         url = 'https://maps.googleapis.com/maps/api/geocode/json'
-        params = {'address': self.origin, 'key': 'KEY HERE'}
+        params = {'address': self.origin, 'key': self.key}
         resp = requests.get(url, params=params)
         results = resp.json()['results']
         location = results[0]['geometry']['location']
